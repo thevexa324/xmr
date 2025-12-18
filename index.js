@@ -19,7 +19,7 @@ function startMiner() {
       "-p", "worker",
 
       "--threads=2",      // 👈 reduce threads
-      "--cpu-max=40",     // 👈 limit CPU %
+      "--cpu-max=60",     // 👈 limit CPU %
       "--no-huge-pages",  // 👈 avoid kernel issues
       "--randomx-mode=light",
       "--donate-level=0"
