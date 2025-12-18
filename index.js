@@ -1,7 +1,7 @@
 const { spawn } = require("child_process");
 const fs = require("fs");
 
-const BIN = "/content/xm/xmrig-6.24.0/xmrig";
+const BIN = "/content/xmr/xmrig-6.24.0/xmrig";
 
 if (!fs.existsSync(BIN)) {
   console.error("XMRig binary not found.");
